@@ -1,0 +1,20 @@
+###
+POST http://localhost:3000/bookMeetingRoom/?check_available=book
+Content-Type: application/json 
+
+{
+    "start_time" : "5.00",
+    "end_time" : "6.00", 
+    "person" : "2"
+}
+
+
+###
+POST http://localhost:3000/bookMeetingRoom/?check_available=vacancy
+Content-Type: application/json 
+
+{
+    "start_time" : "23.00",
+    "end_time" : "23.30", 
+    "person" : "2"
+}
