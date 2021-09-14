@@ -5,14 +5,18 @@
   "main": "geektrust.js",
   "scripts": {
     "start": "node geektrust.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf node_modules/ && npm i",
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "chai": "^4.2.0",
     "sqlite": "^4.0.19",
     "sqlite3": "^5.0.2"
   }
 }
+
